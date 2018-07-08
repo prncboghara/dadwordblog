@@ -1,0 +1,28 @@
+.card{
+	font-size: 18px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+.card{
+	padding: 40px;
+}
+.navbar{
+	font-size: 17px;
+}
+.main_content{
+	padding-top: 5em;
+	padding-bottom: 5em;
+	text-align: center;
+	font-size: 30px;
+}
+li{
+	list-style: none;
+}
+.about_us{
+	text-align: justify;
+}
+.discription{
+	font-size: 15px;
+	font-weight: 50;
+}
