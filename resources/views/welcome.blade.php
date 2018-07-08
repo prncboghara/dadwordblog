@@ -9,7 +9,6 @@
     <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/jquery.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/popper.js')}}"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/locale/ar-dz.js"></script>
 </head>
 <body>
 
@@ -18,21 +17,13 @@
   <a class="navbar-brand" href="#">Dadword Blog</a>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
+
+      @foreach($categories as $cat)
       <li class="nav-item">
-        <a class="nav-link" href="#">css</a>
+        <a class="nav-link" href="#">{{$cat->name}}</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Javascript</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Angular</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Laravel</a>
-      </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="#">React</a>
-      </li> -->
+      @endforeach
+      
     </ul>
   </div>
 </nav>
@@ -67,3 +58,4 @@
 </div>
 </body>
 </html>
+

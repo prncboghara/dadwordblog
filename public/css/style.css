@@ -26,3 +26,15 @@ li{
 	font-size: 15px;
 	font-weight: 50;
 }
+.sidenavlink{
+	display: block;
+	padding: 5px;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: 4%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.sidenav{
+	text-align: center;
+}

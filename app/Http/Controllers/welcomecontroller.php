@@ -3,20 +3,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
-class homepagecontroller extends Controller
+class welcomecontroller extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
+    public function __construct{
+
+    }
     public function index()
     {
-        $categories = DB::table('categories')->get();
-        $post = DB::table('posts')->get();
-        return view('homepage',['posts' => $post,'categories'=>$categories]);
+    
     }
 
     /**
