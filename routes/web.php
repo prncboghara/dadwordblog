@@ -17,3 +17,4 @@ Route::get('/main-post','mainpostcontroller@index');
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+Route::get('{slug}','mainpostcontroller@index');

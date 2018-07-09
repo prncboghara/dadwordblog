@@ -23,7 +23,6 @@
         <a class="nav-link" href="#">{{$cat->name}}</a>
       </li>
       @endforeach
-      
     </ul>
   </div>
 </nav>

@@ -16,7 +16,7 @@
 			    	{{$post->slug}}
 			    </div>
 			  </div>
-			  <p><small class="text-muted">Last updated 2 min ago by prnc<span class="ml-5"><a href="{{$post->title}}">Read More</a></span> </small></p>
+			  <p><small class="text-muted">Last updated 2 min ago by prnc<span class="ml-5"><a href="{{$post->slug}}">Read More</a></span> </small></p>
 			</div>	
 		</div>
 		@endforeach

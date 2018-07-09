@@ -1,6 +1,6 @@
 @extends('welcome')
-
 @section('content')
+
 	<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-3 sidenav bg-white">		
@@ -41,5 +41,5 @@
 			</div>
 		</div>
 	</div>
-
+	
 @endsection('content')

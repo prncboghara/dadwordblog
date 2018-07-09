@@ -15,7 +15,7 @@ class mainpostcontroller extends Controller
     public function index()
     {
         $categories = DB::table('categories')->get();
-        return view('main_post',['categories'=>$categories]);
+        return view('mainpost',['categories'=>$categories]);
     }
 
     /**

@@ -1,1 +1,1 @@
-<h1 align="center">this is my personal blog with laravel and voyager admin</h1>
+learning blog development with laravel and voyager admin panel
